@@ -18,20 +18,25 @@ class BestSellers extends Component {
                        <Typography style={{ float:"left",margin:'2%'}} >
                           <strong>  BestSellers</strong>
                         </Typography>
-                        <Button style={{color:'#047BD5',backgroundColor:'#fff',float:'right',margin:'2%'}}>
+                       <a href="/viewAll">
+                       <Button style={{color:'#047BD5',backgroundColor:'#fff',float:'right',margin:'2%'}}>
                             ViewAll
                         </Button>
+                       </a>
                     </div>
                     <Card style={{width:'100%'}}>
                        <Grid container>
                         <Grid item xs={6} style={{padding:'5%'}} >
-                           <img src={'https://rukminim1.flixcart.com/image/150/150/k6pd7680/speaker/mobile-tablet-speaker/c/s/x/thomson-bbx-01-black-original-imafp44yb883wkgc.jpeg?q=70'}style={{width:'100%'}}></img>
-                           <Typography>
+                         <a href="/products">
+
+                         <img src={'https://rukminim1.flixcart.com/image/150/150/k6pd7680/speaker/mobile-tablet-speaker/c/s/x/thomson-bbx-01-black-original-imafp44yb883wkgc.jpeg?q=70'}style={{width:'100%'}}></img>
+                           <Typography style={{color:'#000'}}>
                                <strong> Best in Speakers</strong>
                            </Typography>
-                           <Typography>
+                           <Typography style={{color:'#000'}}>
                               Buy Now
                            </Typography>
+                         </a>
                             </Grid>
                             <Grid item xs={6} style={{padding:'5%'}} >
                             <img src={'https://rukminim1.flixcart.com/flap/150/150/image/73a876aed3db713f.jpg?q=70'}style={{width:'100%'}}></img>

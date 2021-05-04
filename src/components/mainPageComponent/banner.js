@@ -8,8 +8,9 @@ class Banner extends Component {
     render() { 
         return (
             <div>
-                <Container style={{padding:'0'}}>
-                    <Typography align="left">
+                <Container style={{padding:'0',margin:'0'}}>
+                  <div style={{margin:'5% 0 1% 1%'}}>
+                  <Typography align="left" >
                         <strong>Trending Offers</strong>
 
                     </Typography>
@@ -17,6 +18,7 @@ class Banner extends Component {
                     <Typography align="left" style={{fontSize:'10px'}}>
                     Watch the Smart Offers
                     </Typography>
+                  </div>
                 </Container>
                 <Card style={{margin:'1%'}}>
                     <img src={'https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50'} style={{width:'100%'}}></img>

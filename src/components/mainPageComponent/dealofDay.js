@@ -16,9 +16,11 @@ class DealOfDay extends Component {
                        <Typography style={{ float:"left",margin:'2%'}} >
                           <strong>  Deal Of Day</strong>
                         </Typography>
-                        <Button style={{color:'#047BD5',backgroundColor:'#fff',float:'right',margin:'2%'}}>
+                     <a href="/viewAll">
+                     <Button style={{color:'#047BD5',backgroundColor:'#fff',float:'right',margin:'2%'}}>
                             ViewAll
                         </Button>
+                     </a>
                     </div>
                     <Card style={{width:'100%'}}>
                        <Grid container>

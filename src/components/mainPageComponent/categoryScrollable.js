@@ -28,6 +28,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
  const tileData = [
+  {
+    category: 'https://static.thenounproject.com/png/2426188-200.png',
+    title:'All',
+    href:'/allCategories'
+  },
        {
          category: 'https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100',
          title:'Offers'
@@ -66,9 +71,10 @@ export default function SingleLineGridList() {
       <GridList className={classes.gridList}>
         {tileData.map((tile) => (
             <Paper elevation={0} style={{margin:'1%',height:'max-content'}}>
-                <img src={tile.category} style={{width:'50px'}}>
-                    
+               <a href={tile.href}>
+               <img src={tile.category} style={{width:'40px'}}>       
                 </img>
+               </a>
                 <Typography>
                   {tile.title}
                 </Typography>
